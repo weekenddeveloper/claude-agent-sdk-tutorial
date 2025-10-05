@@ -1,0 +1,30 @@
+{
+  "name": "claude-agent-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial examples for building AI agents with Claude Agent SDK using TypeScript",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "example1": "tsx examples/01-basic-agent.ts",
+    "example2": "tsx examples/02-custom-tools.ts",
+    "example3": "tsx examples/03-file-analyzer.ts",
+    "example4": "tsx examples/04-code-reviewer.ts"
+  },
+  "keywords": [
+    "claude",
+    "ai-agent",
+    "anthropic",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.1.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

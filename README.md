@@ -267,46 +267,6 @@ npm run example4
 
 ---
 
-### Example 5: Insurance Rater (Simulated)
-**File:** `examples/05-insurance-rater.ts`
-
-Complex workflow agent for insurance rating (simulated API).
-
-```bash
-npm run example5
-```
-
-**What you'll learn:**
-- Multi-tool orchestration
-- Domain-specific agents
-- API integration patterns
-- Workflow management
-- Result comparison and analysis
-
----
-
-### Example 5b: Insurance Rater (ZRater API Integration)
-**File:** `examples/05-insurance-rater-zrater.ts`
-
-Real-world integration with the ZRater Gateway API for insurance rating.
-
-```bash
-npm run example5-zrater
-```
-
-**What you'll learn:**
-- Real API integration with ZRater
-- Handling async rating workflows
-- Error handling for external APIs
-- Data transformation and validation
-- Production-ready agent patterns
-
-**Prerequisites:**
-- ZRater API key (set `ZRATER_API_KEY` in `.env`)
-- See [ZRATER-INTEGRATION.md](ZRATER-INTEGRATION.md) for detailed documentation
-
----
-
 ## Building Your First Agent
 
 Let's walk through building a simple agent step by step:
